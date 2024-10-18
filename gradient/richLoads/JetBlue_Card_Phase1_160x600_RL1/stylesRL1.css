@@ -90,6 +90,9 @@ video {
   letter-spacing: 0.1px;
   top: 3px;
 }
+#h1 div{
+  margin-top: 4px;
+}
 #h1 span{
   color: #00e1ff;
   font-size: 34.7px;
