@@ -1,0 +1,183 @@
+body,
+body * {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+img {
+  border: 0;
+}
+
+button,
+div,
+img,
+svg,
+video {
+  position: absolute;
+}
+
+#main_container {
+  position: absolute;
+  background-color: #000064;
+  /* border: 1px solid #000000; */
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 300px;
+  height: 600px;
+}
+
+#main_content {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 300px;
+  height: 600px;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#default_exit {
+  top: -1px;
+  left: -1px;
+  width: 300px;
+  height: 600px;
+  z-index: 500;
+  cursor: pointer;
+}
+
+:focus {
+  outline: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+/* Custom Styling */
+
+/* Fonts */
+@font-face {
+  font-family: "ESKlarheitGrotesk Smbd";
+  src: url("./fonts/ESKlarheitGrotesk-Smbd.woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "ESKlarheitGrotesk Xbd";
+  src: url("./fonts/ESKlarheitGrotesk-Xbd.woff");
+  font-weight: normal;
+}
+/* Text */
+
+#text_holder {
+  color: #fff;
+  font-family: "ESKlarheitGrotesk Xbd";
+  width: 100%;
+  left: 35px;
+  top: 85px;
+  
+}
+#h1{
+  font-size: 25px;
+  line-height: 31.4px;
+  top: 1px;
+}
+#h1 span{
+  color: #00e1ff;
+  font-size: 36.5px;
+  line-height: 37px;
+  margin-top: 1.5px;
+  display: inline-block;
+  margin-left: -2px;
+}
+#h2{
+  font-size: 31.5px;
+  line-height: 36.5px;
+  top: 3px;
+  left: -5px;
+}
+#h2 span{
+  color: #00e1ff;
+}
+#h3{
+  font-size: 31px;
+  line-height: 38.8px;
+  top: 3px;
+  left: 15px;
+}
+#h3 span{
+  color: #00e1ff;
+}
+#endframeBg {
+  position: absolute; 
+  bottom: 0px;
+  height: 9px;
+  width: 100%; 
+  background: #3fc8f4;
+}
+#term{
+  top: 437px;
+  left: 194px;
+  font-size: 13px;
+  color: #ffffff;
+  font-family: "KlarheitGroteskBook", sans-serif;
+}
+
+#cta {
+  width: 103px;
+  height: 34px;
+  background-color: #00e1ff;
+  border-radius: 3px;
+  color: #000064;
+  font-family: "ESKlarheitGrotesk Smbd";
+  text-align: center;
+  font-size: 13px;
+  top: 274px;
+  left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo{
+  bottom: 36px;
+  left: 33px;
+  width: 118px;
+}
+#bg{
+  width: 225px;
+  top: 290px;
+  left: 39px;
+}
+#card1{
+  top: 350px;
+  left: 37px;
+  min-width: 224px;
+  min-height: 600px;
+  background-image: url(./images/card_new.png);
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+#shine1 {
+  width: 300px;
+  height: 600px;
+  background-image: url(./images/shine.png);
+  background-size: 200px;
+  background-position: -160px 175px;
+  background-repeat: no-repeat;
+  position: absolute;
+  mix-blend-mode: soft-light;
+  -webkit-mask-image: url(./images/endCard.png);
+  -webkit-mask-size: 300px 600px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: left;
+  mask-image: url(./images/endCard.png);
+}
