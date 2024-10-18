@@ -25,18 +25,17 @@ function animate() {
 
   tl.addLabel('frame1', 0)
   .to('#h1', 0.5, { autoAlpha: 1, ease: Power1.easeInOut}, 'frame1+=2')
-  .to('#h1', 0.5, { autoAlpha: 0, ease: Power1.easeInOut}, 'frame1+=3.5')
+
   tl.addLabel('frame2', 4)
-  .to('#h2', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame2")
-  .to('#h2', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, "frame2+=3.5")
+  .to('#h1', 0.5, { autoAlpha: 0, ease: Power1.easeInOut}, 'frame2')
+  .to('#h2', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame2+=0.5")  
   .to('#bg', {y:'8px', objectFit: 'contain', height: '230px', x:'14px' }, "<")
   .to('#term', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "<")
 
   tl.addLabel('frame3', 8)
-  .to('#h3', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame3")
-  .to('#bg', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, "frame3+=2")
-  .to('#term', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, "<")
-  .to('#card1', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame3+=2.5")
+  .to(["#h2, #bg, #term"], 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, "frame3")
+  .to('#h3', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame3+=0.5")
+  .to('#card1', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame3+=1")
   .to('#cta', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "<")
   .to('#shine1', 1, {autoAlpha: 1, backgroundPosition: '450px 0px'});
 
