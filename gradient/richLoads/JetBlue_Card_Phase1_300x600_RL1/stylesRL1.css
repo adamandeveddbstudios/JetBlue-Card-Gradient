@@ -152,7 +152,6 @@ video {
   width: 118px;
 }
 
-
 #card1{
   top: 0;
   left: 0;
@@ -171,9 +170,9 @@ video {
   background-repeat: no-repeat;
   position: absolute;
   mix-blend-mode: soft-light;
-  -webkit-mask-image: url(./images/shine.png);
+  -webkit-mask-image: url(./images/endCard.png);
   -webkit-mask-size: 300px 600px;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: left;
-  mask-image: url(./images/mask.png);
+  mask-image: url(./images/endCard.png);
 }

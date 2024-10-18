@@ -36,7 +36,7 @@ function animate() {
   .to('#h3', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame3+=0.5")
   .to('#card1', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame3+=1")
   .to('#cta', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "<")
-  .to('#shine1', 1, {autoAlpha: 1, backgroundPosition: '450px 0px'});
+  .to('#shine1', 1, {autoAlpha: 1, backgroundPosition: '260px 175px'});
 
 }
 
@@ -61,6 +61,3 @@ function init() {
   setRollover();
 		
 }
-const d = new Date();
-let year = d.getFullYear();
-document.getElementById("year").innerHTML = year;
