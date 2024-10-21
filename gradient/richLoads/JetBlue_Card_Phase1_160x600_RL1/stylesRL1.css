@@ -5,6 +5,7 @@ body * {
   padding: 0;
   margin: 0;
 }
+
 img {
   border: 0;
 }
@@ -69,62 +70,77 @@ video {
   src: url("./fonts/ESKlarheitGrotesk-Smbd.woff");
   font-weight: normal;
 }
+
 @font-face {
   font-family: "ESKlarheitGrotesk Xbd";
   src: url("./fonts/ESKlarheitGrotesk-Xbd.woff");
   font-weight: normal;
 }
+
 /* Text */
 
 #text_holder {
   color: #fff;
   font-family: "ESKlarheitGrotesk Xbd";
   width: 100%;
-  left: 13px;
+  left: 0;
   top: 80px;
   text-align: center;
 }
-#h1{
+
+#h1 {
   font-size: 23.5px;
   line-height: 30.5px;
   letter-spacing: 0.1px;
   top: 3px;
+  width: 100%;
 }
-#h1 div{
+
+#h1 div {
   margin-top: 4px;
+  width: 100%;
 }
-#h1 span{
+
+#h1 span {
   color: #00e1ff;
   font-size: 34.7px;
 }
-#h2{
-  font-size: 22.6px;
-  left: -5px;
-  line-height: 27.5px;
+
+#h2 {
+  font-size: 21px;
+  left: 0;
+  line-height: 25px;
   top: 4px;
+  width: 100%;
 }
-#h2 span{
+
+#h2 span {
   color: #00e1ff;
 }
-#h3{
-  font-size: 22.6px;
-  line-height: 26.9px;
-  left: -7px;
+
+#h3 {
+  font-size: 21px;
+  line-height: 25px;
+  left: 0;
   top: 5px;
+  width: 100%;
 }
-#h3 span{
+
+#h3 span {
   color: #00e1ff;
 }
+
 #endframeBg {
-  position: absolute; 
+  position: absolute;
   bottom: 0px;
   height: 9px;
-  width: 100%; 
+  width: 100%;
   background: #3fc8f4;
 }
-#term{
+
+#term {
   top: 392px;
-  left: 91px;
+  left: 88px;
   font-size: 9.2px;
   color: #ffffff;
   font-family: "KlarheitGroteskBook", sans-serif;
@@ -140,28 +156,35 @@ video {
   text-align: center;
   font-size: 13.5px;
   top: 231px;
-  left: 28px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#logo{
+#logo {
   bottom: 73px;
-  left: 33px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 99px;
 }
 
-#card1{
+#card1 {
   top: 310px;
-  left: 18px;
+  left: 50%;
+  transform: translateX(-50%);
   min-width: 128px;
-  min-height: 600px;
+  min-height: 81px;
   /* background-image: url(./images/bg.png); */
   background-image: url(./images/card_new.png);
   background-size: contain;
   position: absolute;
   background-repeat: no-repeat;
+}
+
+#card_animation{
+  width: 100%;
 }
 #shine1 {
   width: 160px;

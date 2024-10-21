@@ -80,7 +80,7 @@ video {
   color: #fff;
   font-family: "ESKlarheitGrotesk Xbd";
   width: 100%;
-  left: 33px;
+  left: 34px;
   top: 85px;
   
 }
@@ -109,7 +109,7 @@ video {
   font-size: 31px;
   line-height: 38.8px;
   top: 3px;
-  left: 15px;
+  /* left: 15px; */
 }
 #h3 span{
   color: #00e1ff;
@@ -122,8 +122,8 @@ video {
   background: #3fc8f4;
 }
 #term{
-  top: 437px;
-  left: 194px;
+  top: 430px;
+  left: 178px;
   font-size: 13px;
   color: #ffffff;
   font-family: "KlarheitGroteskBook", sans-serif;
@@ -139,7 +139,7 @@ video {
   text-align: center;
   font-size: 13px;
   top: 274px;
-  left: 50px;
+  left: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,11 +153,12 @@ video {
 #bg{
   width: 225px;
   top: 290px;
-  left: 39px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #card1{
   top: 350px;
-  left: 37px;
+  left: 35px;
   min-width: 224px;
   min-height: 600px;
   background-image: url(./images/card_new.png);

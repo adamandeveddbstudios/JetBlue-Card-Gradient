@@ -83,8 +83,8 @@ video {
   color: #fff;
   font-family: "ESKlarheitGrotesk Xbd";
   width: 100%;
-  left: 32px;
-  top: 7px;
+  left: 30px;
+  top: 8px;
   font-size: 22px;
   line-height: 31.5px;
   letter-spacing: -0.5px;
@@ -125,9 +125,9 @@ video {
 }
 
 #term {
-  top: 68px;
-  right: 189px;
-  font-size: 9.2px;
+  top: 65px;
+  right: 201px;
+  font-size: 9px;
   color: #ffffff;
   font-family: "KlarheitGroteskBook", sans-serif;
 }
@@ -150,18 +150,20 @@ video {
 
 #logo {
   bottom: 34px;
-  right: 12px;
+  right: 30px;
   width: 68px;
 }
-#bg{
+
+#bg {
   width: 97px;
-  top: 6px;
+  top: 10px;
   left: 442px;
 }
+
 #card1 {
-  top: 6px;
-  left: 520px;
-  width: 485px;
+  top: 11px;
+  left: 508px;
+  width: 97px;
   height: 61px;
   background-image: url(./images/card_new.png);
   background-size: contain;
@@ -179,7 +181,7 @@ video {
   position: absolute;
   mix-blend-mode: soft-light;
   -webkit-mask-image: url(./images/endCard.png);
-  -webkit-mask-size: 728px 90px;
+  -webkit-mask-size: 693px 79px;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   mask-image: url(./images/endCard.png);
