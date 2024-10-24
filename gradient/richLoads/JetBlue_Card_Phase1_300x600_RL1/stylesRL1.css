@@ -5,6 +5,7 @@ body * {
   padding: 0;
   margin: 0;
 }
+
 img {
   border: 0;
 }
@@ -69,11 +70,13 @@ video {
   src: url("./fonts/ESKlarheitGrotesk-Smbd.woff");
   font-weight: normal;
 }
+
 @font-face {
   font-family: "ESKlarheitGrotesk Xbd";
   src: url("./fonts/ESKlarheitGrotesk-Xbd.woff");
   font-weight: normal;
 }
+
 /* Text */
 
 #text_holder {
@@ -82,14 +85,16 @@ video {
   width: 100%;
   left: 34px;
   top: 85px;
-  
+
 }
-#h1{
+
+#h1 {
   font-size: 25px;
   line-height: 31.4px;
   top: 1px;
 }
-#h1 span{
+
+#h1 span {
   color: #00e1ff;
   font-size: 36.5px;
   line-height: 37px;
@@ -97,34 +102,40 @@ video {
   display: inline-block;
   margin-left: -2px;
 }
-#h2{
+
+#h2 {
   font-size: 31.5px;
   line-height: 36.5px;
   top: 3px;
 }
-#h2 span{
+
+#h2 span {
   color: #00e1ff;
 }
-#h3{
+
+#h3 {
   font-size: 31px;
   line-height: 38.8px;
   top: 3px;
   /* left: 15px; */
 }
-#h3 span{
+
+#h3 span {
   color: #00e1ff;
 }
+
 #endframeBg {
-  position: absolute; 
+  position: absolute;
   bottom: 0px;
   height: 9px;
-  width: 100%; 
+  width: 100%;
   background: #3fc8f4;
 }
-#term{
-  top: 430px;
-  left: 178px;
-  font-size: 13px;
+
+#term {
+  top: 435px;
+  left: 199px;
+  font-size: 10px;
   color: #ffffff;
   font-family: "KlarheitGroteskBook", sans-serif;
 }
@@ -145,18 +156,20 @@ video {
   justify-content: center;
 }
 
-#logo{
+#logo {
   bottom: 36px;
   left: 33px;
   width: 118px;
 }
-#bg{
+
+#bg {
   width: 225px;
   top: 290px;
   left: 50%;
   transform: translateX(-50%);
 }
-#card1{
+
+#card1 {
   top: 350px;
   left: 35px;
   min-width: 224px;
@@ -166,6 +179,7 @@ video {
   position: absolute;
   background-repeat: no-repeat;
 }
+
 #shine1 {
   width: 300px;
   height: 600px;

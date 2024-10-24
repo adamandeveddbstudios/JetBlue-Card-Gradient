@@ -139,9 +139,9 @@ video {
 }
 
 #term {
-  top: 392px;
-  left: 88px;
-  font-size: 9.2px;
+  top: 393px;
+  left: 92px;
+  font-size: 8.5px;
   color: #ffffff;
   font-family: "KlarheitGroteskBook", sans-serif;
 }
@@ -170,8 +170,15 @@ video {
   width: 99px;
 }
 
-#card1 {
+#bg {
+  width: 128px;
   top: 310px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#card1 {
+  top: 320px;
   left: 50%;
   transform: translateX(-50%);
   min-width: 128px;
@@ -183,10 +190,12 @@ video {
   background-repeat: no-repeat;
 }
 
-#card_animation{
+#card_animation {
   width: 100%;
 }
+
 #shine1 {
+  top: 10px;
   width: 160px;
   height: 600px;
   background-image: url(./images/shine.png);

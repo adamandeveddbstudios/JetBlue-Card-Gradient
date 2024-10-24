@@ -29,7 +29,7 @@ function animate() {
   tl.addLabel('frame2', 4)
     .to('#h1', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame2')
     .to('#h2', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame2+=0.5")
-    .to('#bg', { scale: 0.95 }, "<")
+    // .to('#bg', { scale: 0.95 }, "<")
     .to('#term', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "<")
 
   tl.addLabel('frame3', 8)

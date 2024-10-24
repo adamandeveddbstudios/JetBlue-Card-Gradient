@@ -125,9 +125,9 @@ video {
 }
 
 #term {
-  top: 65px;
-  right: 201px;
-  font-size: 9px;
+  top: 67px;
+  right: 203px;
+  font-size: 7.5px;
   color: #ffffff;
   font-family: "KlarheitGroteskBook", sans-serif;
 }
@@ -155,9 +155,9 @@ video {
 }
 
 #bg {
-  width: 97px;
-  top: 10px;
-  left: 442px;
+  width: 84px;
+  top: 12px;
+  left: 445px;
 }
 
 #card1 {
@@ -172,6 +172,8 @@ video {
 }
 
 #shine1 {
+  top: 5px;
+  left: -12px;
   width: 728px;
   height: 90px;
   background-image: url(./images/shine.png);
@@ -181,7 +183,7 @@ video {
   position: absolute;
   mix-blend-mode: soft-light;
   -webkit-mask-image: url(./images/endCard.png);
-  -webkit-mask-size: 693px 79px;
+  -webkit-mask-size: 728px 90px;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   mask-image: url(./images/endCard.png);
