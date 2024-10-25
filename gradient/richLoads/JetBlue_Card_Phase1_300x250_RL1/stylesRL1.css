@@ -154,12 +154,17 @@ video {
 
 #bg {
   width: 170px;
+  top: 0;
+  left: 0%;
+}
+#card_animation{
+  position: absolute;
+  width: 170px;
+  height: 107px;
   top: 86px;
-  /* left: 64px; */
   left: 50%;
   transform: translateX(-50%);
 }
-
 #card1 {
   top: 108px;
   left: 144px;
@@ -172,16 +177,17 @@ video {
 }
 
 #shine1 {
-  width: 300px;
-  height: 250px;
+  width: 100%;
+  height: 100%;
   background-image: url(./images/shine.png);
-  background-size: contain;
-  background-position: 150px 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: -150px -10px;
   position: absolute;
   mix-blend-mode: soft-light;
-  -webkit-mask-image: url(./images/mask.png);
+  -webkit-mask-image: url(./images/card_new.png);
   -webkit-mask-size: 300px 250px;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
-  mask-image: url(./images/mask.png);
+  mask-image: url(./images/card_new.png);
 }
