@@ -162,6 +162,8 @@ video {
   width: 170px;
   height: 107px;
   top: 86px;
+  border-radius: 6px;
+  overflow: hidden;
   left: 50%;
   transform: translateX(-50%);
 }
