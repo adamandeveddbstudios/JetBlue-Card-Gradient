@@ -29,16 +29,15 @@ function animate() {
   tl.addLabel('frame2', 4)
     .to('#h1', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame2')
     .to('#h2', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame2+=0.5")
-    .to('#shine', 1, { autoAlpha: 1, backgroundPosition: '210px -230px' })
-    // .to('#bg', { scale: 0.95 }, "<")
+    .to('#shine1', 1, { autoAlpha: 1, backgroundPosition: '150px -40px' })
     .to('#term', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "<")
 
   tl.addLabel('frame3', 8)
-    .to(["#h2, #bg, #term"], 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, "frame3")
+    .to(["#h2, #bg, #term, #card_animation"], 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, "frame3")
     .to('#h3', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame3+=0.5")
     .to('#card1', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame3+=1")
     .to('#cta', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "<")
-    .to('#shine1', 1, { autoAlpha: 1, backgroundPosition: '260px 175px' });
+    .to('#shine1', 1, { autoAlpha: 1, backgroundPosition: '450px 0px' });
 
 }
 

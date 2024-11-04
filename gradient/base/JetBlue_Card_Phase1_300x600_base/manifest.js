@@ -9,6 +9,6 @@ FT.manifest({
  	],
     "instantAds": [
         {"name":"main_rl",          "type":"richload"}, 
-        {"name":"clickTag1_url",    "type":"text", "default":"http://www.landingpageurl.com/?blahblah"}
+        {"name":"clickTag1_url",    "type":"text", "default":" https://www.jetblue.com/trueblue/credit-cards/jetblue-card-comparison"}
     ]
 });

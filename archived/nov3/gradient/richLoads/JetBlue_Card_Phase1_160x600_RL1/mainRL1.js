@@ -21,7 +21,6 @@ myFT.on('instantads', function () {
 init()
 function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
-  tl.set(["#bg"], { rotation: 0.1, });
 
   tl.addLabel('frame1', 0)
     .to('#h1', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, 'frame1+=2')
@@ -29,16 +28,14 @@ function animate() {
   tl.addLabel('frame2', 4)
     .to('#h1', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame2')
     .to('#h2', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame2+=0.5")
-    .to('#shine', 1, { autoAlpha: 1, backgroundPosition: '210px -230px' })
-    // .to('#bg', { scale: 0.95 }, "<")
+    .to('#shine1', 1, { autoAlpha: 1, backgroundPosition: '140px 0px' })
     .to('#term', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "<")
 
   tl.addLabel('frame3', 8)
     .to(["#h2, #bg, #term"], 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, "frame3")
     .to('#h3', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame3+=0.5")
-    .to('#card1', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame3+=1")
+    // .to('#card1', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame3+=1")
     .to('#cta', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "<")
-    .to('#shine1', 1, { autoAlpha: 1, backgroundPosition: '260px 175px' });
 
 }
 

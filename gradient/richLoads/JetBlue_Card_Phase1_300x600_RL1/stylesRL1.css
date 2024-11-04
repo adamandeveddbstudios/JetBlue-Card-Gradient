@@ -163,10 +163,38 @@ video {
 }
 
 #bg {
-  width: 225px;
+  /* width: 225px;
   top: 290px;
   left: 50%;
+  transform: translateX(-50%); */
+  width: 225px;
+  top: 0;
+  left: 0;
+}
+#card_animation{
+  position: absolute;
+  width: 225px;
+  height: 142px;
+  top: 290px;
+  left: 50%;
+  border-radius: 7px;
+  overflow: hidden;
   transform: translateX(-50%);
+}
+#shine {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/shine.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: -180px -150px;
+  position: absolute;
+  mix-blend-mode: soft-light;
+  -webkit-mask-image: url(./images/card_new.png);
+  -webkit-mask-size: 300px 600px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-image: url(./images/card_new.png);
 }
 
 #card1 {
